@@ -30,7 +30,7 @@ The repository is structured as follows:
 
     Main.java: Entry point of the program. Handles user interaction and orchestrates the inspection process.
     Patient.java: Defines the Patient class, representing a patient and their associated information.
-    Organ.java: Defines the Organ class, representing an organ and its details.
+    BodyPart.java: Defines the BodyPart class, representing an organ and its details.
     OptionSelector.java: Implements the OptionSelector class, providing functionality to elegantly handle user selection.
 
 Notes
