@@ -4,7 +4,7 @@ import com.optionbehaviour.IOption;
 
 import java.util.Scanner;
 
-public class OptionSelector<T extends IOption> {
+public class OptionSelector {
     private Scanner userInput;
 
     private ActionOption[] options;

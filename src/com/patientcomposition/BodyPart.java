@@ -1,8 +1,10 @@
 package com.patientcomposition;
 
 import com.optionbehaviour.ActionOption;
-import com.optionbehaviour.IOption;
 
+/**
+ * A base class used to model Body Parts (organs)
+ */
 public class BodyPart {
     private String name;
     private String condition;
@@ -41,7 +43,4 @@ public class BodyPart {
     public String getAdditionalInfo (){
         return null;
     }
-
-
-
 }

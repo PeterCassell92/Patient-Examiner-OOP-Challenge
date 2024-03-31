@@ -4,6 +4,10 @@ import java.util.Date;
 import java.time.LocalDate;
 import java.time.Period;
 
+/**
+ * A basic patient class
+ * A full patient model would require many more fields and functions.
+ */
 public class Patient {
     private String name;
     private Date dateOfBirth;

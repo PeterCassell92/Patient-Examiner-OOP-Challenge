@@ -8,15 +8,16 @@ import com.patientcomposition.Patient;
 import java.util.Arrays;
 import java.util.Scanner;
 
+/** The class responsible for providing a UI to the user for examining/interacting with a patient
+ */
 public class PatientExaminer {
-    private Patient patient;
+    private final Patient patient;
 
     final private String[] stages = { "Organ Select", "Organ Action Select" };
 
     private int currentStageIndex = 0;
 
     private OptionSelector optionSelector;
-    final private Scanner userInput = new Scanner(System.in);
 
     private BodyPart currentOrgan;
 
@@ -46,6 +47,7 @@ public class PatientExaminer {
 
     public PatientExaminer(Patient patient) {
         this.patient = patient;
+        Scanner userInput = new Scanner(System.in);
         this.optionSelector = new OptionSelector(userInput, null);
     }
 
